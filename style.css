@@ -1,0 +1,118 @@
+body {
+border-top: 2px solid black;
+color: #888888;
+font-family: Georgia;
+font-size: 13px;
+line-height: 20px;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+background:url('logo.png') no-repeat 0 0;
+float:left;
+height:32px;
+line-height:32px;
+margin:0;
+padding-left:35px;
+}
+
+#header {
+height:32px;
+}
+
+#nav {
+float: right;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#nav li {
+float:left;
+margin:0 10px 0 5px;
+}
+#nav li a {
+color:black;
+padding-left:20px;
+text-decoration:none;
+}
+#nav li a:hover {
+color:#888888;
+text-decoration:underline;
+}
+#nav .user {
+background:url('user.png') no-repeat left center;
+}
+#nav .users {
+background:url('users.png') no-repeat left center;
+}
+#nav .logout {
+background:url('logout.png') no-repeat left center;
+}
+#nav .report {
+background:url('report.png') no-repeat left center;
+}
+
+#main {
+
+}
+
+#menu {
+float:left;
+width:150px;
+}
+
+#content {
+margin:0 auto;
+width:900px;
+}
+
+#month {
+color:black;
+font-size:20px;
+text-align:center;
+}
+#month .prev,
+#month .next {
+color:black;
+text-decoration:none;
+}
+#month .prev:hover,
+#month .next:hover {
+color:#888888;
+}
+
+#content table {
+margin:0 auto;
+}
+
+#content th,
+#content td {
+text-align:center;
+}
+
+#content td.date {
+text-align:left;
+}
+
+input.time {
+border: 1px solid transparent;
+border-bottom: 1px solid black;
+padding: 0;
+text-align: center;
+width: 50px;
+}
+input.time:hover,
+input.time_active {
+background-color:#eee;
+}
+input.remarks {
+border: 1px solid transparent;
+border-bottom: 1px solid black;
+padding: 0;
+text-align: center;
+width: 150px;
+}
+input.remarks:hover {
+background-color:#eee;
+}
